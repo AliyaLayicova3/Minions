@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100vw;
+    height: 20vh;
+    background-color: #FCE029;
+}
+.m-li{
+     position: relative;
+}
+.m-li:hover .d-ul{
+     display: block;
+}
+.d-li{
+    text-decoration: underline;
+    color: #FCE029;
+    font-weight: 300;
+}
+.d-s-li{
+    text-decoration: underline;
+    color: #FCE029;
+    font-weight: 300;
+}
+.m-ul{
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+    .m-li{
+        padding-top: 50px;
+        font-size: 40px;
+        font-family: "Lilita One", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+    a{
+        text-decoration: none;
+    }
+    .m-li-2{
+        color: black;
+        padding-top: 50px;
+        font-size: 40px;
+        font-family: "Lilita One", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+        .d-ul{
+            list-style-type: none;
+            display: none;
+            position: absolute;
+            width: 20vw;
+            height: fit-content;
+            padding: 15px;
+            background-color: #0a75bc;
+            border: 5px solid #0a75bc;
+            border-radius: 10px;
+            font-size: 20px;
+        }
+img{
+    width: 35vw;
+}
+main{
+    width: 100vw;
+    height: 79vh;
+}
+.m-i{
+    height: 79vh;
+    width: 100vw;
+    object-fit: cover;
+}
